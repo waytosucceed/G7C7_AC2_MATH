@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header {
+        width: 100%;
+        height: 90px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        padding: 20px;
+        display: flex;
+      }
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 1100px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          height: 300px;
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+        font-size: 1.4rem;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./assests/logo/logo1.png" alt="logo" class="company-logo" />
+        <img src="./assests/logo/logo2.png" alt="logo" class="company-logo" />
+      </div>
+
+      <div class="content-container">
+        <div class="lesson-title">Adding and Subtracting Like Fractions</div>
+
+        <div class="lesson-content">
+          <div>
+           
+            
+         
+            <h2>What are Like Fractions?
+            </h2>
+            
+            <p>
+              Like fractions are fractions that have the same denominators (bottom numbers).
+              </p>
+              <h2>Adding Like Fractions</h2>
+              <ol>
+                <li>Check the Denominators: Make sure the denominators (bottom numbers) are the same.</li>
+                <li>Add the Numerators: Add the top numbers (numerators) together.</li>
+                <li>Keep the Denominator the Same: Keep the bottom number (denominator) the same.</li>
+              </ol>
+              <p>
+                <b>Example</b>: Adding 1/5 + 2/5
+                <ol>
+                  <li>Denominators are the same (both are 5).</li>
+                  <li>Add the numerators: 1 + 2 = 3.</li>
+                  <li>Keep the denominator the same: 5.</li>
+                </ol>
+                <p>
+                  So, 1/5 + 2/5 = 3/5.
+                </p>
+              </p>
+            
+            
+            
+            <h2>Subtracting Like Fractions</h2>
+            <ol>
+              <li><b>Check the Denominators</b>: Make sure the denominators (bottom numbers) are the same.</li>
+              <li><b>Subtract the Numerators</b>: Subtract the top numbers (numerators).
+              </li>
+              <li><b>Keep the Denominator the Same</b>: Keep the bottom number (denominator) the same.</li>
+            </ol>
+            <p>
+              <b>Example</b>: Subtracting 2/5 - 1/5
+              <ol>
+                <li>Denominators are the same (both are 5).</li>
+                <li>Subtract the numerators: 2 - 1 = 1</li>
+                <li>Keep the denominator the same: 5.</li>
+              </ol>
+              <p>
+                So, 2/5 - 1/5 = 1/5.
+              </p>
+            </p>
+
+
+            <h2>Reducing Fractions</h2>
+            <h2>What is Reducing a Fraction?</h2>
+            <ul>
+              <li>Reducing a fraction means making it as simple as possible.</li>
+            </ul>
+            <h2>How to Reduce Fractions</h2>
+            <p>
+              <b>Method 1: Greatest Common Divisor (GCD)</b>
+            </p>
+            <ol>
+              <li><b>Find Factors</b>: List all the numbers that can divide the numerator (top number) and the denominator (bottom number) without leaving a remainder.<br><b>For example</b>: For 24/32, list factors:
+                <ul>
+                  <li>Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24</li>
+                  <li>Factors of 32: 1, 2, 4, 8, 16, 32</li>
+                </ul>
+              </li>
+              <li><b>Find the Greatest Common Factor (GCF)</b>: Find the largest number that appears in both lists.
+                  <ul>
+                    <li>Here, the GCF of 24 and 32 is 8.</li>
+                  </ul>
+              </li>
+              <li><b>Divide</b>: Divide the numerator and denominator by the GCF.
+                <ul>
+                  <li>24/8 = 3</li>
+                  <li>32/8 = 4</li>
+                </ul>
+              </li>
+            </ol>
+            <p>So, 24/32 reduces to 3/4.</p>
+<br><br>
+            <p>
+              <b>Method 2: Keep Dividing by Small Numbers              </b>
+            </p>
+            <ol>
+              <li><b>Pick a Small Number</b>: Choose a number like 2, 3, 4, 5, or 7.
+                <ul>
+                  <li><b>Example</b>: For 24/32, use 2.</li>
+                </ul>
+              </li>
+              <li><b>Divide</b>: Divide the numerator and denominator by the small number.
+                <ul>
+                  <li>24/2 = 12</li>
+                  <li>32/2 = 16</li>
+                  <li>The new fraction is 12/16.</li>
+                </ul>
+              </li>
+              <li>
+                <b>Repeat</b>: Keep dividing until you can’t divide anymore.
+                <ul>
+                  <li>12/2 = 6</li>
+                  <li>16/2 = 8</li>
+                  <li>The new fraction is 6/8.</li>
+                  <li>6/2 = 3</li>
+                  <li>8/2 = 4</li>
+                  <li>The final reduced fraction is 3/4.</li>
+                </ul>
+              </li>
+            </ol>
+          <p><b>Method 3: Prime Factorization</b></p>
+          <ol>
+            <li><b>Find Prime Factors</b>: Break down the numerator and denominator into prime numbers.
+              <p><b>Example</b>: For 60/84:</p>
+              <ul>
+                <li>Prime factors of 60: 2 × 2 × 3 × 5</li>
+                <li>Prime factors of 84: 2 × 2 × 3 × 7</li>
+              </ul>
+            </li>
+            <li><b>Cancel Common Factors</b>: Cross out the common factors.
+              <ul><li>Common factors: 2 × 2 × 3 = 12</li></ul>
+            </li>
+            <li><b>Divide</b>: Divide the numerator and denominator by the product of the common factors.
+              <ul>
+                <li>60/12 = 5</li>
+                <li>84/12 = 7</li>
+                <li>The final reduced fraction is 5/7.</li>
+              </ul>
+            </li>
+          </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
